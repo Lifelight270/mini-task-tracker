@@ -5,14 +5,14 @@ const dummyTasks = [
     id: 1,
     title: 'Complete project proposal',
     description: 'Finish the task tracker project',
-    dueDate: new Date(Date.now()), 
+    dueDate: new Date(Date.now() + 86400000).toISOString(),
     status: 'pending'
   }, 
   {
     id: 2,
     title: 'Buy daily item',
     description: 'Milk, eggs, bread',
-    dueDate: new Date(Date.now()), 
+    dueDate: new Date(Date.now() - 86400000).toISOString(), // Yesterday
     status: 'done'
   },
   
