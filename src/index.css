@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+body{
+  background-color: #EEF5FF;
+  /* text-align: center; */
+}
+
+.container { 
+  max-width: 700px;
+   margin: auto; 
+   padding: 24px; 
+   font-family: sans-serif; 
+  }
+
+.card {
+   background: #fff; 
+   padding: 16px;
+   margin-bottom: 16px; 
+    border-radius: 8px; 
+  }
+
+  .card .btn {
+    padding: 8px 16px;
+
+  }
+
+.toolbar {  
+  margin-bottom: 16px;
+  }
+
+input, select, button {
+   padding: 8px; 
+  }
+
+.task {
+  display: grid; 
+  grid-template-columns: 1fr auto auto; 
+  gap: 12px;
+  padding: 12px; 
+  border-bottom: 1px solid #eee; 
+  }
+.actions { 
+
+  display: flex; 
+  gap: 6px; 
+}
+
+.No-task { 
+  color: #666;
+   font-size: 0.85rem; 
+  }
